@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - North Link</title>
+    <link rel="icon" href="Northen RIDE.png" type="image/svg+xml">
+    <style>
+        :root {
+            --primary: #1f73e8;
+            --secondary: #0d47a1;
+            --accent: #00bcd4;
+            --light: #f8f9fa;
+            --dark: #1a1a1a;
+            --success: #4caf50;
+            --warning: #ff9800;
+            --danger: #f44336;
+            --white: #ffffff;
+            --gray: #f5f5f5;
+            --text: #333333;
+            --transparent-bg: rgba(255, 255, 255, 0.9);
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #e0f7fa, #bbdefb);
+            background-size: cover;
+            background-attachment: fixed;
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, rgba(31, 115, 232, 0.95), rgba(13, 71, 161, 0.95));
+            padding: 15px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background: var(--white);
+            padding: 5px;
+        }
+        
+        .logo h1 {
+            color: var(--white);
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover, nav a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .section {
+            background: var(--transparent-bg);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: var(--card-shadow);
+            backdrop-filter: blur(10px);
+        }
+        
+        .section h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent);
+        }
+        
+        .section h3 {
+            color: var(--primary);
+            margin: 25px 0 15px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background: linear-gradient(135deg, rgba(31, 115, 232, 0.95), rgba(13, 71, 161, 0.95));
+            color: var(--white);
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .footer-content p {
+            margin: 10px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="Northen RIDE.png" alt="North Link ">
+                <h1>North Link</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book-ride.html">Book Ride</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html" class="active">Terms</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Terms & Conditions</h2>
+            
+            <h3>1. Booking Policy</h3>
+            <ul>
+                <li>Bookings are non-refundable but can be rescheduled with 24 hours' notice.</li>
+                <li>Passengers must present valid ID upon boarding.</li>
+                <li>Seats are assigned at booking and cannot be shared.</li>
+            </ul>
+
+            <h3>2. Payment Policy</h3>
+            <ul>
+                <li>Full payment is required at the time of booking.</li>
+                <li>Mobile money payments must be confirmed within 10 minutes.</li>
+                <li>Failed payments may result in cancellation.</li>
+            </ul>
+
+            <h3>3. Travel Policy</h3>
+            <ul>
+                <li>Arrive at least 30 minutes before departure.</li>
+                <li>Luggage is limited to one medium-sized bag per passenger.</li>
+                <li>North Link reserves the right to modify schedules due to unforeseen circumstances.</li>
+            </ul>
+
+            <h3>4. Privacy Policy</h3>
+            <ul>
+                <li>We do not share personal information with third parties.</li>
+                <li>Contact details may be used for travel updates and promotions.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 North Link. All rights reserved.</p>
+            <p>Designed for students, powered by sustainability.</p>
+        </div>
+    </footer>
+</body>
+</html>
